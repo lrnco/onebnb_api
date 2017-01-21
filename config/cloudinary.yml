@@ -1,0 +1,18 @@
+development:
+  cloud_name: lrnco
+  api_key: '524182849834298'
+  api_secret: oX1IADyF4D5q82ig1qR0e6OHfrc
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: lrnco
+  api_key: '524182849834298'
+  api_secret: oX1IADyF4D5q82ig1qR0e6OHfrc
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: lrnco
+  api_key: '524182849834298'
+  api_secret: oX1IADyF4D5q82ig1qR0e6OHfrc
+  enhance_image_tag: true
+  static_image_support: false
