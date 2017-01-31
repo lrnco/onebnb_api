@@ -18,7 +18,6 @@ RSpec.describe Api::V1::UsersController, type: :controller do
       end
 
       it "updates the requested user" do
-        @name = FFaker::Name.name
         put :update, params: {id: @user.id, user: @new_attributes}
         @user.reload
         expect(@user.name).to eql(@new_attributes[:name])

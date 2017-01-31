@@ -30,7 +30,6 @@ RSpec.describe Api::V1::PropertiesController, type: :controller do
     end
   end
 
-
   describe "DELETE #wishlist" do
     before do
       @user     = create(:user)
@@ -64,7 +63,6 @@ RSpec.describe Api::V1::PropertiesController, type: :controller do
       end
     end
   end
-
 
   describe "GET #search" do
     before do
@@ -105,5 +103,7 @@ RSpec.describe Api::V1::PropertiesController, type: :controller do
       end
     end
   end
+
+
 
 end
