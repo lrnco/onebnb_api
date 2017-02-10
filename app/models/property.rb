@@ -19,8 +19,9 @@ class Property < ApplicationRecord
                         :accommodation_type, :beds, :bedroom, :bathroom, :guest_max,
                         :description
 
-  def search_data
+ def search_data
     {
+      name: name,
       status: status,
       address_country: address.country,
       address_city: address.city,

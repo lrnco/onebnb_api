@@ -19,6 +19,7 @@ config/secrets.yml
 
 #temp
 /public/uploads/tmp
+/public/uploads/photo
 
 # dotenv
 # TODO Comment out this rule if environment variables can be committed

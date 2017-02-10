@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :users, only: [:update]
 
       get 'search', to: 'properties#search'
+      get 'autocomplete', to: 'properties#autocomplete'
 
       resources :properties do
         member do
