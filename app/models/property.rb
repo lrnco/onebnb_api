@@ -9,6 +9,7 @@ class Property < ApplicationRecord
   belongs_to :facility
   has_many :wishlists
   has_many :photos
+  has_many :reservations
 
   # Associa aos comentários
   has_many :comments
@@ -36,4 +37,9 @@ class Property < ApplicationRecord
       heater: facility.heater
     }
   end
+
+  def get_rating
+    self.rating.round
+  end
+
 end
