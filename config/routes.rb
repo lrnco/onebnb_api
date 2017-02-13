@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       put 'users', to: 'users#update'
       get 'current_user', to: 'users#current_user'
 
+      get 'featured', to: 'properties#featured'
       get 'search', to: 'properties#search'
       get 'autocomplete', to: 'properties#autocomplete'
       
