@@ -20,6 +20,7 @@ class Api::V1::PropertiesController < ApplicationController
       results << property.address.city
       results << property.address.country
     end
+    results.uniq!
     render json: results, status: 200
   end
 
